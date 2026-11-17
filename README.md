@@ -1,8 +1,6 @@
 # Loriz Bakery - Online Pre-Order & Inventory System
 
-Capstone project for Loriz Bakery, a Filipino bakery in Calgary. Customers browse the menu and place pick up pre-orders without an account. Staff log in to a dashboard to manage products.
-Team: Jasmaan Sekhon, Eliah Rebong, Hassan Khalil, Jean Pierre Louis
-Bacud, Justin Gracilla, and Ralph Julian Paul Pagulayan
+Team Capstone project for Loriz Bakery, a Filipino bakery in Calgary. Customers browse the menu and place pick up pre-orders without an account. Staff log in to a dashboard to manage products.
 
 Built with PHP (PDO), MySQL, and vanilla JavaScript.
 
@@ -39,6 +37,3 @@ Needs PHP with the `pdo_mysql` extension and MySQL or MariaDB. XAMPP and MAMP in
 
 Serve it from the web root, since pages link with root-relative paths like `/menu.php`.
 
-## Status
-
-The customer ordering flow works. The staff dashboard is partly finished. See `TODO.md`.
