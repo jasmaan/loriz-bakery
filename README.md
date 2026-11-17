@@ -1,7 +1,7 @@
 # Loriz Bakery - Online Pre-Order & Inventory System
 
 Capstone project for Loriz Bakery, a Filipino bakery in Calgary. Customers browse the menu and place pick up pre-orders without an account. Staff log in to a dashboard to manage products.
---> Team: Jasmaan Sekhon, Eliah Rebong, Hassan Khalil, Jean Pierre Louis
+Team: Jasmaan Sekhon, Eliah Rebong, Hassan Khalil, Jean Pierre Louis
 Bacud, Justin Gracilla, and Ralph Julian Paul Pagulayan
 
 Built with PHP (PDO), MySQL, and vanilla JavaScript.
