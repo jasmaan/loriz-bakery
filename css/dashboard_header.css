@@ -1,0 +1,12 @@
+.dbNav {
+    background-color: rgb(227, 233, 216);
+    width: 100%;
+    padding: 35px;
+    font-size: 18px;
+}
+.logoutButton {
+    float: right;
+    border: none;
+    background-color: rgb(227, 233, 216);
+    cursor: pointer;
+}

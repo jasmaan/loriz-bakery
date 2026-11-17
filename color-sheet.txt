@@ -1,0 +1,8 @@
+light-green bg: rgb(227, 233, 216)
+image overlay: rgba(0, 0, 0, 0.6)
+button-bg: rgb(92, 134, 7)
+button-hover: rgb(112, 163, 9)
+cream bg: rgb(253, 250, 241)
+text: rgb(52, 63, 30)
+footer border: rgb(186, 192, 171)
+menu tile hover: rgb(239, 229, 201)

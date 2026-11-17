@@ -1,0 +1,39 @@
+.dbContent {
+    display: flex;
+    flex-direction: column;
+}
+.dbContentHeader {
+    border: 1px red dashed;
+}
+.dbContentHeader h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.dbContentBody {
+    margin: 0 80px;
+    padding: 30px;
+}
+.dbContentBody input {
+    margin-bottom: 20px;
+}
+.dbContentBody input, .dbContentBody textarea {
+    width: 100%;
+    background-color: rgb(253, 250, 241);
+    padding: 5px;
+    border-radius: 3px;
+}
+.submitBttn {
+    margin-top: 20px;
+    background-color: rgb(92, 134, 7);
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    color: rgb(253, 250, 241);
+    font-weight: bold;
+    
+}
+.submitBttn:hover {
+    background-color: rgb(112, 163, 9);
+}

@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(253, 250, 241);
+    color:rgb(52, 63, 30);
+
+}
+#dbContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#dbBody {
+    width: 80%;
+}
+
+.dbContentContainer {
+    padding: 20px 10px 10px 10px;
+}
+.dbContent {
+    min-height: 800px;
+    background-color: rgb(227, 233, 216);
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    border: 1px red dashed;
+}
+.menuTile {
+    width: 100%;
+    min-width: 400px;
+    background-color: rgb(253, 250, 241);
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 300px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 3px 3px 10px;
+    border: 1px red dashed;
+}
+.tileLink {
+    color: rgb(52, 63, 30);
+}
+.expandIcon {
+    float: right;
+    font-size: 20px;
+}
+.expandIcon:hover {
+    color: rgb(112, 163, 9);
+}
+.orderSummary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.orderSummaryTable {
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.orderSummaryTable th, .orderSummaryTable td {
+    border: 1px solid rgb(52, 63, 30);
+}
+.orderSummaryTable th {
+    background-color: rgb(138, 151, 111);;
+}
+
+
+
+
+
+
+
+
+#dbSidebar, #dbBody, #dbLogo, #dbSidebarUser, #userImage, #userName, #menuList li {
+    transition: all 0.5s ease;
+}
+
+
+

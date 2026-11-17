@@ -1,0 +1,31 @@
+.dbContentBody {
+    display: flex;
+    justify-content: center;
+}
+.dbContentHeader h3 {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+}
+
+.viewProductTable {
+    width: 95%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+.viewProductTable th, .viewProductTable td {
+    border: 1px solid rgb(52, 63, 30);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.viewProductTable th {
+    background-color: rgb(138, 151, 111);
+    text-align: center;
+}
+.viewProductTable a {
+    margin-right: 5px;
+    color: rgb(52, 63, 30);
+}
+.viewProductTable a:hover {
+    color: rgb(112, 163, 9);
+}

@@ -1,0 +1,15 @@
+# Real database credentials (see config.example.php)
+config.php
+.env
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and local database dumps containing real data
+*.log
+*.sql.gz
+dump*.sql

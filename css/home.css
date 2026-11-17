@@ -1,0 +1,139 @@
+.homeBody {
+    background: rgb(170, 189, 170);
+}
+
+.homeBanner {
+    background-image: url("../images/lb-land.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-position: 0%;
+    position: relative;
+    height: 700px;
+}
+.homeBanner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.homeContainer {
+    width: 100%;
+    max-width: 900px;
+    padding-left: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.homeBannerHeader {
+    font-size: 50px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black, 0 0 5px black;
+    position: relative;
+    z-index: 2; 
+}
+.homeBannerHeader h1 {
+    line-height: 100%;
+}
+.homeBannerHeader p {
+    font-size: 30px;
+    padding-left: 5px;
+    line-height: 100%;
+}
+.bannerButton {
+    background-color: rgb(92, 134, 7);
+    font-size: 18px;
+    padding:12px 40px;
+    border: none;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.bannerButton:hover, .bodyButton:hover {
+    background-color: rgb(112, 163, 9);
+}
+
+.introWrapper {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(253, 250, 241);
+    height: 500px;
+    padding: 100px;
+}
+.homeIntro {
+    padding: 50px;
+}
+.homeIntro p {
+    text-align: justify;
+}
+.homeIntro h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.introHeader {
+    font-weight: bold;
+}
+.introBody {
+    color: rgb(78, 84, 37);
+}
+
+.homeViewMenu {
+    background-color: rgb(227, 233, 216);
+    padding: 120px;
+}
+.homeViewMenu h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    /* height: 650px; */
+    margin: 0 auto;
+}
+.homeContLeft, .homeContRight {
+    background-color: rgb(253, 250, 241);
+    flex: 1;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.homeContLeft p, .homeContRight p {
+    padding: 30px;
+    text-align: justify;
+}
+.contImage {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px 10px 0 0;
+}
+.viewMenuWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    width: 80%;
+    margin: 0 auto;
+}
+.viewMenuText h3 {
+    font-size: 30px;  
+}
+.bodyButton {
+    background-color: rgb(92, 134, 7);
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 125px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.viewMenuButton i {
+    margin-left: 10px;
+}
+

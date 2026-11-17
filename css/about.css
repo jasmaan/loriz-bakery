@@ -1,0 +1,77 @@
+.aboutBanner {
+    background-image: url("../images/lb-about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-position: 0%;
+    position: relative;
+    height: 700px;
+}
+.aboutBanner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.aboutHistory {
+    background-color: rgb(227, 233, 216);
+    padding: 170px;
+    color: rgb(52, 63, 30);
+}
+.historyWrapper {
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+}
+.historyHeader, .historyBody {
+    flex: 1;
+    width: 1000px;
+}
+.historyHeader h2 {
+    font-size: 40px;
+}
+.historyBody h3 {
+    margin-bottom: 20px;
+}
+.historyBody p {
+    text-align: justify;
+}
+
+.aboutMission {
+    background-color: rgb(253, 250, 241);
+    padding: 170px;
+    color: rgb(52, 63, 30);
+}
+.missionHeader {
+    text-align: center;
+}
+.missionHeader h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.missionWrapper {
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+}
+.percentCont {
+    justify-content: center;
+    text-align: center;
+}
+.percentCont h2 {
+    font-size: 50px;
+    color: rgb(112, 163, 9);
+}
+.percentCont h3 {
+    margin-bottom: 20px;
+}
+
+.empty {
+    background-color: rgb(227, 233, 216);
+    height: 100px;
+}

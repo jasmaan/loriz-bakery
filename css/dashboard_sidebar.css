@@ -1,0 +1,71 @@
+#dbLogo {
+    height: 90px;
+    width: 180px;
+    margin: auto;
+}
+.dbLogoContainer, .dbSidebarUser {
+    padding: 10px 0;
+}
+#dbSidebar {
+    width: 20%;
+    background-color: rgb(92, 134, 7);
+    min-height: 100vh;
+}
+#dbSidebarUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+#userImage {
+    border: 2px solid rgb(253, 250, 241);
+    border-radius: 50%;
+    background-color: gray;
+    height: 80px;
+    width: 80px;
+}
+#userName {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(253, 250, 241);
+}
+
+#dbMenuList {
+    padding: 10px;
+}
+#dbMenuList a, .dbNav a {
+    color: rgb(52, 63, 30);
+}
+#dbMenuList a:hover, 
+a.menuActive, 
+.logoutButton:hover, 
+#toggleMenu:hover {
+    color: rgb(112, 163, 9);
+}
+.menuIcons {
+    margin: 0 10px;
+}
+.menuText {
+    margin: 0;
+}
+.menuExpand {
+    float: right;
+    margin: 5px 10px;
+    font-size: 15px;
+}
+#dbMenuList li { /* FIX when class is used, it does not work */
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(253, 250, 241);
+}
+/*a.subMenuLink { /* FIX indendation 
+    padding: 10px;
+    font-size: 15px;
+    margin: 0;
+}*/
+.subMenus {
+    display: none;
+}
